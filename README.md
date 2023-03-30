@@ -45,18 +45,29 @@ https://github.com/PedroADev/camera2
 
 ## Aparelho utilizado para testes.
 - Emulador do Android Studio (Pixel 2)
+- Xiaomi Redmi Note 9s
 
 ## Testes realizados
 
+## Xiaomi Redmi Note 9s
 ### SplashScreen
-![image](https://user-images.githubusercontent.com/89281859/228942430-43f9b833-303f-4747-9701-7e995303d1eb.png)
+![image](https://user-images.githubusercontent.com/89281859/228950685-7547a9cc-2f7a-4821-8ebb-510896137820.png)
 
 ### Menu Principal
-![image](https://user-images.githubusercontent.com/89281859/228942823-a6dfd727-6bea-4e00-9dd0-da254d4f3fcf.png)
+![image](https://user-images.githubusercontent.com/89281859/228951635-4a4cfaae-97c1-4031-bebf-43c6992b9c7f.png)
 
 ### Câmera
-![image](https://user-images.githubusercontent.com/89281859/228942996-dc9b972a-3c6c-414a-8fbd-13b250a488e0.png)
+![image](https://user-images.githubusercontent.com/89281859/228951657-3f50682d-753b-4aba-8f14-5d91fe2f98a1.png)
 
+## Emulador do Android Studio (Pixel 2)
+### SplashScreen
+![image](https://user-images.githubusercontent.com/89281859/228951739-19e76604-4634-44de-bfe2-6424da43b014.png)
+
+### Menu Principal
+![image](https://user-images.githubusercontent.com/89281859/228951767-9ca28b8e-9242-41b7-acb4-7c17b8254eb3.png)
+
+### Câmera
+![image](https://user-images.githubusercontent.com/89281859/228951810-d6fde3f6-ab79-4d12-91d2-98f05a23eb20.png)
 
 ## Linguagens, dependencias e libs utilizadas 📚
 ![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
