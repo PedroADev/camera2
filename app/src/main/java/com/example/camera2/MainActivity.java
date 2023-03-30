@@ -47,28 +47,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //checar se a permissão para utilizar a camera foi concedida
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, 0);
         }
-
+        //configura a exibição da foto
         imageViewFoto = (ImageView) findViewById(R.id.image_foto);
         findViewById(R.id.btn_pic).setOnClickListener(new View.OnClickListener(){
 
+            //metodo que será executado ao clicar no botão de tirar foto
             @Override
             public void onClick(View view) {tirarFoto();}
 
         });
     }
-
+     //metodo para tirar a foto
     private void tirarFoto() {
         Intent intent = new Intent((MediaStore.ACTION_IMAGE_CAPTURE));
         startActivityForResult(intent, 1);
 
     }
-
+     //depois que a foto for tirada, vai exibir o resultado
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-
+//
         if (requestCode == 1 && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             Bitmap imagem = (Bitmap) extras.get("data");
@@ -79,4 +81,3 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
-//aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
