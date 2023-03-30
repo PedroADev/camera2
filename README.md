@@ -31,7 +31,7 @@ Um aplicativo criado no Android Studio que possibilita a captura de uma foto atr
 ✔️ Exibir localização
 
 ## Distribuição
-https://github.com/PedroADev/camera2
+https://github.com/PedroADev/ringoapp
 
 ## Pré-requisitos ⚠️    
 - Android Studio Electric Eel | 2022.1.1 Patch 2
