@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, 0);
         }
         //configura a exibição da foto
-        imageViewFoto = (ImageView) findViewById(R.id.image_foto);
+        imageViewFoto = (ImageView) findViewById(R.id.imageView2);
         findViewById(R.id.btn_pic).setOnClickListener(new View.OnClickListener(){
 
             //metodo que será executado ao clicar no botão de tirar foto
