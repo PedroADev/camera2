@@ -69,6 +69,9 @@ https://github.com/PedroADev/ringoapp
 ### Câmera
 ![image](https://user-images.githubusercontent.com/89281859/228951810-d6fde3f6-ab79-4d12-91d2-98f05a23eb20.png)
 
+![image](https://user-images.githubusercontent.com/89281859/229009700-bb5d51b1-5ea7-44ab-a37b-1b9c275edbd5.png)
+
+
 ## Linguagens, dependencias e libs utilizadas 📚
 ![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
